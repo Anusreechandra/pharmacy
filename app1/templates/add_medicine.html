@@ -1,0 +1,24 @@
+{% extends 'master.html' %}
+    {% block content %}
+    <section class="page1"> 
+    
+        <div class="form">
+        <p>Add Medicine</p>
+        <form action="" method="POST"  enctype="multipart/form-data">
+        {% csrf_token %}
+    <input type="text" name="medicine_name" placeholder="Name of Medicine">
+    <input type="text" name="medicine_quantity" placeholder="Quantity">
+    <input type="text" name="medicine_price" placeholder="medicine_price">
+    <input type="text" name="purchace_price" placeholder="purchace_price">
+    <input type="text" name="selling_cost" placeholder="selling_cost">
+    <label for="">Upload Image :</label>
+    <input type="file" name="pimg"><br><br>
+
+    <button>Add</button>
+
+    
+    
+        </form>
+        {{msg}}
+    </section> 
+{% endblock %}

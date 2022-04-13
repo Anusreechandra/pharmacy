@@ -1,0 +1,20 @@
+.section1{
+    background: url(/static/images/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzNiYXRjaDE1LTIxNy0wMS5qcGc.webp);
+    background-size: cover;
+}
+
+.unlimited{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.section2{
+    background-color: rgb(101, 105, 105);
+}
+
+.addproduct{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}

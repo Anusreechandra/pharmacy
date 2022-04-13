@@ -1,0 +1,21 @@
+{% extends 'master.html' %}
+    {% block content %}
+
+<section class="page1"> 
+    
+    <div class="form">
+    <p>Login</p>
+    <form action="" method="POST">
+    {% csrf_token %}
+<input type="email" name="owner_email" id="user_email" placeholder="Email Address">
+<span id="un1"></span>
+<input type="password" name="owner_password" id="pw" placeholder="Password">
+<span id="pw1"></span>
+<button>Login</button>
+
+
+    </form>
+    {{msg}}
+</section> 
+
+{% endblock %}
